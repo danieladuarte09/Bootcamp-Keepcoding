@@ -105,7 +105,7 @@ do { functions.Requirements()
     optiones( userNumber);
 
   
-} while (  userNumber !== 0 && userNumber <= 18 )
+} while (  userNumber !== 0 && userNumber <= 15 )
 
 
 
