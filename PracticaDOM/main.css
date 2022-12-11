@@ -1,0 +1,69 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+body {
+    margin: 0 auto;
+    min-width: 360px;
+    max-width: 500px;
+    margin-top: 2rem;
+}
+
+h1{
+    color: blue; 
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    margin: 10px;
+    color: green;
+}
+
+.Ahorro-total{
+    text-align: center;
+}
+
+
+
+.Ingresos-gastos{
+    display: flex;
+
+}
+
+h3{
+    margin: 10px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historial{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ahorro{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
