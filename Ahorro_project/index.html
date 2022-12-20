@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/main.css" >
+    <title>Expenses</title>
+</head>
+<body>
+    <h1>Control de gastos </h1>
+
+    <section id="Ahorros-total" > 
+        <h2>AHORROS</h2>
+        <p id="Ahorro-total"> 0.00€</p>
+    </section>    
+    
+
+    <section id="Ingreso-Gasto" > 
+
+        
+           <div class="incomes"><h3>INGRESOS</h3> 
+            <ol id ="ingreso"> </ol>
+            
+           </div> 
+           
+           <div class="expenses"><h3>GASTOS</h3> 
+            <ol id ="gasto"> </ol>
+            
+           </div> 
+        
+            
+    </section>
+
+    <section id="historialSection" > 
+
+        <div class="historial">
+            <h3>Historial de gastos</h3>
+            <hr>
+            <ol id="historialTransaction"></ol>
+            
+        </div>
+    </section>
+
+<form id="GetInfo" novalidate >
+    <label for ="Concepto" label> Concepto </label>
+    <input type ="text"  id ="conceptInput"  >
+
+    <label for ="ingreso" label> Ingreso </label>
+    <input type ="number"  id="incomeInput"  >
+    
+
+    <div class="boton">  
+    <button type="submit" id="button1"> Añadir transacción </button>
+    
+    </div>
+
+</form>
+
+</body>
+<script src="/index.js"> </script>
+</html>
